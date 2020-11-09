@@ -1,0 +1,39 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@atlaskit/avatar": "20.0.6",
+    "@atlaskit/avatar-group": "8.0.11",
+    "@atlaskit/comment": "10.0.5",
+    "@atlaskit/datetime-picker": "10.0.6",
+    "@atlaskit/dynamic-table": "14.1.4",
+    "@atlaskit/field-base": "15.0.3",
+    "babel-plugin-styled-components": "1.11.1",
+    "lodash": "4.17.20",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.4.3",
+    "styled-components": "5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

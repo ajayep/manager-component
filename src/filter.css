@@ -1,0 +1,44 @@
+.Whole {
+  display: flex;
+  width: 100%;
+  color: #ee0c53;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 1px;
+  align-content: space-between;
+  margin-top: 7px;
+}
+
+.paragraph {
+  align-self: end;
+  color: #5e6c84;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 12px 0;
+}
+.dropdown {
+  margin: 5px;
+  min-width: 200px;
+  max-width: 150px;
+}
+.components {
+  margin: 5px;
+  min-width: 140px;
+}
+.datecomponents {
+  margin: 5px;
+  min-width: 118px;
+  max-width: 150px;
+}
+.visible {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.invisible {
+  display: flex;
+  flex-direction: row;
+  display: none;
+  flex: 1;
+  padding-top: 5px;
+}
